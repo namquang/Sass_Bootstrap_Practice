@@ -1,0 +1,47 @@
+
+.navbar 
+{
+  font-size: 17px;
+  background-color: #F8F8F9;
+  width: 100%;
+  .navbar-inner{
+      margin: 0px;
+      position: relative;
+      width: 100%;
+      .nav{
+        margin:0;
+        list-style:none;
+        li {
+            position:relative;
+
+            a {
+              display:block;
+              padding: 20px 30px;
+              text-align:center;
+              text-decoration:none;
+              padding: 23px 38px;
+              font-weight: 200;
+              line-height: 22px;
+            }
+
+            &:hover {
+              color: #505050;
+              background-color: #F0F0F2;
+            }
+        }
+      }
+    }
+
+}
+.imagebanner{
+  position: relative;
+  width: 100%;
+  .carousel-image{
+    background-position: center center;
+    background-size: cover;
+    height: 320px;
+    position: relative;
+    width: 100%;
+  }
+}
+
